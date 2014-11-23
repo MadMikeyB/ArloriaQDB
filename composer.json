@@ -1,0 +1,16 @@
+{
+    "require": {
+        "illuminate/database": "~4.2",
+        "filp/whoops": "~1.0"
+    },
+    "autoload": {
+        "classmap": [
+			"app/models",
+            "app/core"
+            
+		],
+        "files": [
+            "app/database.php"
+        ]
+    }
+}
